@@ -40,11 +40,11 @@ require_once("Akshay/connect.php");
 			<div id="pb_{{group.projectId}}" class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="1" aria-valuemin="0" aria-valuemax="1" style="width: 100%;height:10px !important;display:none"></div>
 			<h2 >
 				{{group.projectName}}
-				<img style="float:right;margin-right:20px;" src="content/images/lovedIt.png" class="emoticons" ng-show="group.rating==4&&group.projectId < currentProject">
-				<img style="float:right;margin-right:20px;" src="content/images/smilingOpenMouth.png" class="emoticons" ng-show="group.rating==3&&group.projectId < currentProject">
-				<img style="float:right;margin-right:20px;" src="content/images/smilingSlightly.png" class="emoticons" ng-show="group.rating==2&&group.projectId < currentProject">
-				<img style="float:right;margin-right:20px;" src="content/images/expressionless.png" class="emoticons" ng-show="group.rating==1&&group.projectId < currentProject">
-				<img style="float:right;margin-right:20px;" src="content/images/frowningSlightly.png" class="emoticons" ng-show="group.rating==0&&group.projectId < currentProject">
+				<img style="float:right;margin-right:20px;" src="content/images/lovedIt.png" class="emoticons" ng-show="group.rating==4">
+				<img style="float:right;margin-right:20px;" src="content/images/smilingOpenMouth.png" class="emoticons" ng-show="group.rating==3">
+				<img style="float:right;margin-right:20px;" src="content/images/smilingSlightly.png" class="emoticons" ng-show="group.rating==2">
+				<img style="float:right;margin-right:20px;" src="content/images/expressionless.png" class="emoticons" ng-show="group.rating==1">
+				<img style="float:right;margin-right:20px;" src="content/images/frowningSlightly.png" class="emoticons" ng-show="group.rating==0">
 
 			</h2>
 			<hr style="margin:5px;padding:0;"/>

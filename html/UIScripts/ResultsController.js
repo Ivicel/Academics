@@ -44,7 +44,7 @@ function resultsController(http,interval,$scope,technophiliaService){
 		$scope.var1 = false;
 		return technophiliaService.fetchDataForGlobalDistribution().then(function success(response){
 			$scope.prepareDataForBarChart(response.data);
-			$scope.getLeaders($scope.myData,5);
+			$scope.getLeaders($scope.myData,6);
 		},function failure(response){
 			console.log("error in fetchDataForGlobalDistribution");
 		});
